@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(30, 68, 68);
+perspective: 2000px;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    
+}
+#main{
+    display: flex;
+     align-items:flex-start;
+    justify-content: center;
+    gap: 40px;
+    
+    flex-wrap:wrap;
+}
+#box{
+    
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    object-fit: cover;
+    background-size: cover;
+    overflow:hidden ;
+}
+
+#main .click{
+    height: 100px;
+    width: 400px;
+    opacity: calc(0.8);
+    background: linear-gradient(#00538F,#30e4f1,#12e396);
+    position: absolute;
+    bottom:-137px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:200 px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.5rem;
+}
+
+#box:hover .click{
+    height: 100px;
+    width: 400px;
+    background-color: transparent;
+    filter: blur(2);
+    position: absolute;
+    bottom:0px;
+    transition: all ease 0.3s;
+    border: 0.2 solid black;
+    
+}
+ #i{
+    position: absolute;
+   right: 50px;
+   opacity: calc(2);
+ background: linear-gradient(#00538F,#30e4f1,#12e396);
+}
+.click i{
+    height: 100px;
+    width: 50px;
+    gap:60;
+    background: linear-gradient(#00538F,#30e4f1,#12e396);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+
+}
+ #i:hover{
+    color: rgb(25, 0, 255);
+    position: absolute;
+   right: 50px;
+   opacity: calc(4);
+ background: linear-gradient(#00538F,#30e4f1,#12e396);
+ font-size: 1.5rem;
+ 
+ 
+}
+#ii:hover {
+    color: blue;
+    font-size:1.5rem ;
+}
+
+#image{
+    height: 19em;
+    width: 25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: none;
+
+}
+#image2{
+    height: 19em;
+    width: 25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: none;
+
+}
+#image2{
+    height: 19em;
+    width: 25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: none;
+
+}
+#image3{
+    height: 19em;
+    width: 25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: none;
+
+}
+#image4{
+    height: 19em;
+    width: 25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: none;
+
+}
+
+
+#image5{
+    height: 19em;
+    width: 25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: none;
+
+}
+#image6{
+    height: 19em;
+    width: 25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: none;
+
+}
+#image7{
+    height: 19em;
+    width: 25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: none;
+
+}
+#main h1{
+    background: linear-gradient(rgb(18, 100, 18),orange,white);
+    border: 2px solid blue;
+}
